@@ -9,4 +9,4 @@ console.log(initialReviews);
 const newReview1 = removeLastReview(initialReviews); 
 console.log(newReview1);
 const newReview2 = removeLastReview(newReview1); 
-console.log(newReview2);
+console.log(newReview2); 

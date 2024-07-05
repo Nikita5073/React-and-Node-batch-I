@@ -1,4 +1,4 @@
-//1. Create a user-defined callback function that sorts an array of book prices in ascending or descending order based on the callback provided. The master function should take an array and a callback function as arguments.
+//1. Create a user-defined callback function that sor,,ts an array of book prices in ascending or descending order based on the callback provided. The master function should take an array and a callback function as arguments.
 function ascendingsort(bookPrices)
 {
     for(let i = 0;i<bookPrices.length;i++)
