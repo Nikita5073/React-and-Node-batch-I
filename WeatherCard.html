@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .container{
+            height: 100vh;
+            width: 90%;
+            /* border: 2px solid black; */
+            margin-top: 50px;
+            background-image: url(https://www.shutterstock.com/image-illustration/sky-blue-abstract-wallpaper-background-260nw-364349039.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: space-around;
+        }
+        .box1{
+            height: 87%;
+            width: 25%;
+            /* border: 2px solid black; */
+            margin-top: 50px;
+            border-radius: 25px;
+            background-image: url(cloudy-img.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+        }
+        .box2{
+            height: 87%;
+            width: 25%;
+            /* border: 2px solid black; */
+            margin-top: 50px;
+            border-radius: 25px;
+            background-image: url(rainy-img.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+        }
+        .box3{
+            height: 87%;
+            width: 25%;
+            /* border: 2px solid black; */
+            margin-top: 50px;
+            border-radius: 25px;
+            background-image: url(cold-img.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+        }
+        .box1-in{
+            height: 30%;
+            width: 80%;
+            /* border: 2px solid black; */
+            display: flex;
+            margin-top: 10px;
+
+        }
+        .boxx-11{
+            height: 100%;
+            width: 60%;
+            /* border: 2px solid black; */
+        }
+        .boxx-111{
+            height: 100%;
+            width: 40%;
+            /* border: 2px solid black; */
+        }
+        .R-1{
+            height: 50%;
+            width: 100%;
+            /* border: 2px solid black; */
+            display: flex;
+        }
+        .R-2{
+            height: 50%;
+            width: 100%;
+            /* border: 2px solid black; */
+        }
+        .RR-1{
+            height: 100%;
+            width: 30%;
+            /* border: 2px solid black; */
+        }
+        .RR-2{
+            height: 100%;
+            width: 70%;
+            /* border: 2px solid black; */
+        }
+        i{
+            color: white;
+            font-size: 60px;
+            margin-top: 30px;
+            margin-left: 35px;
+        }
+        #cold-1{
+            margin-right: 40px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            <div class="box1-in">
+                <div class="boxx-11">
+                    <div class="R-1">
+                        <div class="RR-1">
+                            <p style="color: white;font-size: 30px;font-family: sans-serif;font-weight: 100;text-align: center;margin-top: 40px;">It's</p>
+                        </div>
+                        <div class="RR-2">
+                            <p style="color: white;font-size: 35px;font-family: sans-serif;text-align: center;margin-top: 35px;font-weight: 200;">Cloudy</p>
+                        </div>
+                    </div>
+                    <div class="R-2">
+                        <h4 style="color: white;font-size: 70px;font-family: sans-serif;margin-left: 10px;">17</h4>
+                    </div>
+                </div>
+                <div class="boxx-111">
+                    <i class="fa-solid fa-cloud-moon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box2">
+            <div class="box1-in">
+                <div class="boxx-11">
+                    <div class="R-1">
+                        <div class="RR-1">
+                            <p style="color: white;font-size: 30px;font-family: sans-serif;font-weight: 100;text-align: center;margin-top: 40px;">It's</p>
+                        </div>
+                        <div class="RR-2">
+                            <p style="color: white;font-size: 35px;font-family: sans-serif;text-align: center;margin-top: 35px;font-weight: 200;">Raining</p>
+                        </div>
+                    </div>
+                    <div class="R-2">
+                        <h4 style="color: white;font-size: 70px;font-family: sans-serif;margin-left: 10px;">15</h4>
+                    </div>
+                </div>
+                <div class="boxx-111">
+                    <i class="fa-solid fa-cloud-showers-heavy"></i>
+                </div>
+            </div>
+        </div>
+        <div class="box3">
+            <div class="box1-in">
+                <div class="boxx-11">
+                    <div class="R-1">
+                        <div class="RR-1">
+                            <p style="color: white;font-size: 30px;font-family: sans-serif;font-weight: 100;text-align: center;margin-top: 40px;">It's</p>
+                        </div>
+                        <div class="RR-2">
+                            <p id="cold-1" style="color: white;font-size: 35px;font-family: sans-serif;text-align: center;margin-top: 35px;font-weight: 200;">Cold</p>
+                        </div>
+                    </div>
+                    <div class="R-2">
+                        <h4 style="color: white;font-size: 70px;font-family: sans-serif;margin-left: 10px;">12</h4>
+                    </div>
+                </div>
+                <div class="boxx-111">
+                    <i class="fa-regular fa-snowflake"></i>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
