@@ -1,0 +1,586 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    font-size: 20px;
+}
+.header1{
+    color: rgb(47, 47, 47);
+    width: 100%;
+    background-color: rgb(248, 246, 246);
+    display: flex;
+    justify-content: space-around;
+}
+.header1-L{
+    width: 22%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.55rem;
+}
+.header1-R{
+    width: 22%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.55rem;
+}
+.header1-R a{
+    text-decoration: none;
+    color: black;
+}
+.header2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.logo-box{
+    width: 11%;
+}
+.header2-R-box{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-box img{
+    height: 100%;
+    width: 100%;
+}
+.page-change-box{
+    width: 55%;
+    padding: 30px;
+}
+.search-box{
+    width: 25%;
+    display: flex;
+}
+.page-change-box ul a{
+    display: flex;
+    list-style: none;
+    font-size: 0.65rem;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    width: 20%;
+    padding: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon a{
+    color: black;
+}
+.background_img_box{
+    height: 110vh;
+    background-image: url("banner-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.men-collection{
+    padding: 80px;
+    width: 45%;
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 13%;
+    color: white;
+}
+.men-collection h1{
+    color: white;
+    font-size: 2.7rem;
+    margin-top: 2%;
+}
+.men-collection h1 span{
+    color: #71cd14;
+}
+.men-collection h4{
+    font-weight: 100;
+    margin-top: 2%;
+}
+.men-collection button{
+    margin-top: 5%;
+    padding: 3% 6%;
+    background-color: #71cd14;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+.services{
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.service-main-box{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.service-box{
+    width: 23%;
+    border: 1px solid rgb(237, 234, 234);
+}
+.icon-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    font-size: 1.5rem;
+}
+.text-box{
+    width: 100%;
+    font-weight: 100;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-box h5{
+    color: black;
+    font-weight: 400;
+    margin: 15px 0px;
+    font-size: 0.8rem;
+}
+.text-box a{
+    text-decoration: none;
+}
+.text-box h6{
+    color: grey;
+    font-weight: 100;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.featured-prod{
+    padding: 50px 0px;
+}
+.f-product-heading{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+.f-product-items{
+    width: 80%;
+    margin: 5% 10%; 
+    display: flex;
+    justify-content: space-between;
+}
+.featured-product{
+    width: 18%;
+    border-bottom: 1px solid rgb(236, 233, 233);
+    padding-bottom: 15px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.f-product-heading h6{
+    font-weight: 500;
+    color: grey;
+    font-size: 0.7rem;
+    margin-top: 20px;
+}
+.product-card{
+    border: 1px solid rgb(241, 238, 238);
+    width: 31%;
+}
+.product_card_img{
+    height: 80%;
+    width: 100%;
+}
+.product_card_desc{
+    height: 20%;
+    width: 100%;
+}
+.product_card_desc a{
+   text-decoration: none;
+   color: black;
+}
+.product_card_img img{
+    height: 100%;
+    width: 100%;
+}
+.description{
+    font-size: 0.7rem;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.price{
+    display: flex;
+    margin-top: 20px;
+}
+.real_price{
+    margin-left: 25px;
+}
+.striked_price{
+    margin-left: 25px;
+    font-size: 0.8rem;
+    color: grey;
+}
+.fifty_percent_off{
+    background-image: url("offer-bg.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fif_perc_off_sub_div{
+    width: 50%;
+    padding: 5%;
+    position: absolute;
+    margin-left: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fif_perc_off_sub_div h3{
+    font-weight: 100;
+    font-size: 1.25rem;
+}
+.fif_perc_off_sub_div h1{
+    font-size: 5rem;
+    margin: 15px 0px;
+}
+.fif_perc_off_sub_div button{
+    background-color:#71cd14;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    margin-bottom: 25px;
+}
+.fif_perc_off_sub_div h6{
+    font-weight: 500;
+    color: grey;
+    font-size: 0.7rem;
+}
+.new_products{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.new_product{
+    width: 14.5%;
+    border-bottom: 1px solid rgb(236, 233, 233);
+    padding-bottom: 15px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.mens_product{
+    height: 110vh;
+    width: 80%;
+    margin: 70px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.mens_product_L{
+    width: 49%;
+    height: 100%;
+    background-color: #f6f6f6;
+}
+.mens_product_R{
+    width: 49%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mens_product_R_subbox{
+    height: 52vh;
+    width: 48%;
+    background-color: #f6f6f6; 
+}
+.mens_product_R_subbox1{
+    height: 51vh;
+    width: 48%;
+    margin-top: 40px;
+    background-color: #f6f6f6;
+}
+.collection_2019{
+    width: 100%;
+    height: 33.3%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tshirts{
+    width: 100%;
+    height: 33.3%;
+    /* border: 1px solid blue; */
+}
+.tshirts img{
+    height: 100%;
+    width: 100%;
+}
+.price1{
+    width: 100%;
+    height: 33.3%;
+    /*  border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.collection_2019 h4{
+    font-weight: 400;
+    color: rgb(83, 82, 82);
+}
+.collection_2019 h2{
+    margin-top: 20px;
+}
+.price1 h2{
+    font-weight: 400;
+}
+.price1 button{
+    background-color: #71cd14;
+    color: white;
+    padding: 15px 35px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.mens_product_R_subbox_top{
+    height: 75%;
+}
+.mens_product_R_subbox_bot{
+    height: 25%;
+    background-color: white;
+    border: 1px solid rgb(231, 228, 228);
+}
+.mens_product_R_subbox_top img{
+    height: 100%;
+    width: 100%;
+}
+.mens_product_R_subbox_bot a{
+    text-decoration: none;
+    color: black;
+}
+.amount{
+    display: flex;
+    margin-top: 10px;
+}
+.amount h4{
+    font-weight: 500;
+    margin-left: 22px;
+}
+.amount h5{
+    color: grey;
+    font-weight: 200;
+    margin-left: 20px;
+}
+.inspired_product{
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ins_product{
+    width: 20%;
+    border-bottom: 1px solid rgb(236, 233, 233);
+    padding-bottom: 15px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.inspired_prod_cards{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+.ins_pro_single_card{
+    width: 23%;
+    height: 50vh;
+}
+.ins_pro_single_card1{
+    width: 23%;
+    height: 50vh;
+    margin-top: 30px;
+}
+.ins_pro_single_card_top{
+    height: 75%;
+    width: 100%;
+}
+.ins_pro_single_card_bot{
+    height: 25%;
+    width: 100%;
+    border: 1px solid rgb(228, 227, 227);
+}
+.ins_pro_single_card_top img{
+    height: 100%;
+    width: 100%;
+}
+.latest_blog{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.latest_blog_div{
+    width: 13%;
+    border-bottom: 1px solid rgb(236, 233, 233);
+    padding-bottom: 15px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.blog-box{
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.blog_card{
+    width: 31.5%;
+    height: 75vh;
+}
+.blog_card_top{
+    height: 50%;
+}
+.blog_card_bot{
+    height: 50%;
+}
+.blog_card_top img{
+    height: 100%;
+    width: 100%;
+}
+.comment_num{
+    display: flex;
+}
+.byadmin{
+    width: 25%;
+    padding-top: 10px;
+    font-size: 0.7rem;
+    color: grey;
+}
+.comment{
+    width: 75%;
+    padding: 10px;
+    font-size: 0.7rem;
+    color: grey;
+}
+.blog_card_bot h4{
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 10px;
+}
+.blog_card_bot h6{
+    color: grey;
+    font-size: 0.75rem;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 25px;
+}
+.blog_card_bot h5{
+    font-size: 0.6rem;
+    font-weight: 400;
+    margin-top: 25px;
+}
+/* Footer */
+.footer-box{
+    width: 100%;
+    padding: 50px;
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_inner_box{
+    width: 80%;
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.footer_inner_box_L{
+    width: 70%;
+}
+.footer_inner_box_R{
+    width: 30%;
+}
+.left_top{
+    display: flex;
+}
+.top_products{
+    width: 25%;
+}
+.top_products dl dt{
+    font-size: 0.9rem;
+    margin-bottom: 18%;
+}
+.top_products dl dd{
+    font-size: 0.7rem;
+    color: grey;
+    margin-bottom: 10%;
+}
+.left_bot h6{
+    font-weight: 400;
+    font-size: 0.7rem;
+    margin-top: 6%;
+}
+.left_bot h6 span{
+    color: #71cd14;
+}
+.footer_inner_box_R h4{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.footer_inner_box_R h6{
+    color: grey;
+    font-weight: 500;
+    font-size: 0.7rem;
+    margin-top: 10%;
+}
+.footer_inner_box_R input{
+    margin-top: 7%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 95px;
+    font-size: 0.7rem;
+    background-color: rgb(49, 48, 48);
+}
+.footer-logo-box{
+    margin-top: 75px;
+    width: 70%;
+    margin-left: 16%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo-box_logo{
+    width: 22%;
+    padding: 20px;
+    background-color: rgb(49, 48, 48);
+}
+.top_products dl a{
+    text-decoration: none;
+}
+.footer-logo-box_logo a i{
+    color: white;
+}
+
+
+
+

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="Shopping_cart.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <!-- header1 Page -->
+     <div class="header1" >
+        <div class="header1-L">
+            <div class="phone-box">PHONE: +0125625235</div>
+            <hr>
+            <div class="email-box">EMAIL: INFO@EISER.COM</div>
+        </div>
+        <div class="header1-R">
+            <a href="">
+            <div class="gift_card">GIFT CARD</div>
+            </a>
+            <hr>
+            <a href="">
+            <div class="track_order">TRACK ORDER</div>
+            </a>
+            <hr>
+            <a href="">
+            <div class="contact_us">CONTACT US</div>
+            </a>
+        </div>
+    </div>
+    <!-- header2 Page -->
+<div class="header2">
+    <div class="logo-box">
+        <img src="eiser_logo.png" alt="image not found">
+    </div>
+    <div class="header2-R-box">
+        <div class="page-change-box">
+            <ul>
+                <a href="">
+                    <li>HOME</li>
+                    <li>SHOP</li>
+                    <li>BLOG</li>
+                    <li>PAGES</li>
+                    <li>CONTACT</li>
+                </a>
+            </ul>
+        </div>
+        <div class="search-box">
+            <div class="icon">
+                <a href="">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="">
+                    <i class="fa-solid fa-user"></i>
+                </a>
+            </div>
+            <div class="icon">
+                <a href="">
+                    <i class="fa-solid fa-heart"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+ </div>
+     <!-- Shop category div -->
+     <div class="shop_category">
+        <div class="shop_cat_L">
+            <h3>Cart</h3>
+            <h5>Very us move be blessed multiply night</h5>
+        </div>
+        <div class="shop_cat_R">
+            <a href="">
+            <h5>Home / Cart</h5>
+            </a>
+        </div>
+     </div>
+     <!-- Product Subtotal -->
+     <div class="prod_subtotal">
+        <div class="prod_subtotal_inner_box">
+            <div class="prod_subtotal_inner_box1">
+                <div class="product_col">Product</div>
+                <div class="des_col"></div>
+                <div class="price_col">Price</div>
+                <div class="qty_col">Quantity</div>
+                <div class="total_col">Total</div>
+            </div>
+            <div class="prod_subtotal_inner_box1">
+                <div class="product_col1">
+                    <div class="fruit_img_div">
+                        <img src="cart-1.jpg" alt="image not found">
+                    </div>
+                </div>
+                <div class="des_col1">Minimalistic shop for multipurpose use</div>
+                <div class="price_col1">$360.00</div>
+                <div class="qty_col1">
+                    <select name="" id="sel">
+                        <option value="">0</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                </div>
+                <div class="total_col1">$720.00</div>
+            </div>
+            <div class="prod_subtotal_inner_box1">
+                <div class="product_col1">
+                    <div class="fruit_img_div">
+                        <img src="cart-1.jpg" alt="image not found">
+                    </div>
+                </div>
+                <div class="des_col1">Minimalistic shop for multipurpose use</div>
+                <div class="price_col1">$360.00</div>
+                <div class="qty_col1">
+                    <select name="" id="sel">
+                        <option value="">0</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                </div>
+                <div class="total_col1">$720.00</div>
+            </div>
+            <div class="prod_subtotal_inner_box1">
+                <div class="product_col1">
+                    <div class="fruit_img_div">
+                        <img src="cart-1.jpg" alt="image not found">
+                    </div>
+                </div>
+                <div class="des_col1">Minimalistic shop for multipurpose use</div>
+                <div class="price_col1">$360.00</div>
+                <div class="qty_col1">
+                    <select name="" id="sel">
+                        <option value="">0</option>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                    </select>
+                </div>
+                <div class="total_col1">$720.00</div>
+            </div>
+            <div class="update_cart">
+                <div class="update_cart_L">
+                    <button>UPDATE CART</button>
+                </div>
+                <div class="update_cart_R">
+                    <input type="text" placeholder="Coupon Code">
+                    <button>Apply</button>
+                    <button id="btn">Close Coupon</button>
+                </div>
+            </div>
+            <div class="subtotal_box">
+                <div class="subtotal_inner_box">
+                    <div class="subtotal_inner_box_L">Subtotal</div>
+                    <div class="subtotal_inner_box_R">$2160.00</div>
+                </div>
+            </div>
+            <div class="shipping_box">
+                <div class="shipping_inner_L_box">
+                    <div class="shipping_L_R_box">
+                        <div class="ship_L">Shipping</div>
+                        <div class="ship_R">
+                            <ul>
+                                <li>Flat Rate: $5.00</li>
+                                <li>Free Shipping</li>
+                                <li>Flat Rate: $10.00</li>
+                                <li>Local Delivery: $2.00</li>
+                            </ul>
+                            <h4>Calculate Shipping</h4>
+                        </div>
+                    </div>
+                    <select name="" id="">
+                        <option value="">Bangladesh</option>
+                        <option value="">India</option>
+                        <option value="">Pakistan</option>
+                    </select> <br>
+                    <select name="" id="">
+                        <option value="">Select a state</option>
+                        <option value="">Select a state</option>
+                        <option value="">Select a state</option>
+                    </select> <br>
+                    <input type="text" placeholder="Postcode/Zipcode"> <br>
+                    <button>Update Details</button>
+                </div>
+            </div>
+            <div class="shopping_or_checkout">
+                <div class="shopping_or_checkout_inner">
+                    <button>CONTINUE SHOPPING</button>
+                    <button >PROCEED TO CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- Footer -->
+     <div class="footer-box">
+        <div class="footer_inner_box">
+            <div class="footer_inner_box_L">
+                <div class="left_top">
+                    <div class="top_products">
+                        <dl>
+                            <dt>Top Products</dt>
+                            <a href="">
+                                <dd>Managed Website</dd>
+                                <dd>Manage Reputation</dd>
+                                <dd>Power Tools</dd>
+                                <dd>Marketting Service</dd>
+                            </a>
+                        </dl>
+                    </div>
+                    <div class="top_products">
+                        <dl>
+                            <dt>Quick Links</dt>
+                            <a href="">
+                                <dd>Jobs</dd>
+                                <dd>Brand Assets</dd>
+                                <dd>Investor Relations</dd>
+                                <dd>Term of Service</dd>
+                            </a>
+                        </dl>
+                    </div>
+                    <div class="top_products">
+                        <dl>
+                            <dt>Features</dt>
+                            <a href="">
+                                <dd>Jobs</dd>
+                                <dd>Brand Assets</dd>
+                                <dd>Investor Relations</dd>
+                                <dd>Term of Service</dd>
+                            </a>
+                        </dl>
+                    </div>
+                    <div class="top_products">
+                        <dl>
+                            <dt>Resources</dt>
+                            <a href="">
+                                <dd>Guides</dd>
+                                <dd>Research</dd>
+                                <dd>Experts</dd>
+                                <dd>Agencies</dd>
+                            </a>
+                        </dl>
+                    </div>
+                </div>
+                <div class="left_bot">
+                    <h6>Copyright ©2024 All rights reserved | This template is made with  by <span>Colorlib</span></h6>
+                </div>
+            </div>
+            <div class="footer_inner_box_R">
+                <h4>Newsletter</h4>
+                <h6>You can trust us.we only send promo offers.</h6>
+                <input type="text" placeholder="Your Email Address">
+                <div class="footer-logo-box">
+                    <div class="footer-logo-box_logo">
+                        <a href="">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="footer-logo-box_logo">
+                        <a href="">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </div>
+                    <div class="footer-logo-box_logo">
+                        <a href="">
+                            <i class="fa-solid fa-futbol"></i>
+                        </a>
+                    </div>
+                    <div class="footer-logo-box_logo">
+                        <a href="">
+                            <i class="fa-brands fa-behance"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+</body>
+</html>

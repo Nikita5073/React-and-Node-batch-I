@@ -1,0 +1,439 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+    font-size: 20px;
+}
+.header1{
+    color: rgb(47, 47, 47);
+    width: 100%;
+    background-color: rgb(248, 246, 246);
+    display: flex;
+    justify-content: space-around;
+}
+.header1-L{
+    width: 22%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.55rem;
+}
+.header1-R{
+    width: 22%;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.55rem;
+}
+.header1-R a{
+    text-decoration: none;
+    color: black;
+}
+.header2{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.logo-box{
+    width: 11%;
+}
+.header2-R-box{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo-box img{
+    height: 100%;
+    width: 100%;
+}
+.page-change-box{
+    width: 55%;
+    padding: 30px;
+}
+.search-box{
+    width: 25%;
+    display: flex;
+}
+.page-change-box ul a{
+    display: flex;
+    list-style: none;
+    font-size: 0.65rem;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+}
+.icon{
+    width: 20%;
+    padding: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon a{
+    color: black;
+}
+/* Shop category div */
+.shop_category{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+    background-color: rgb(247, 244, 244); 
+}
+.shop_cat_L{
+    /* border: 1px solid purple; */
+    padding: 4.5% 0%; 
+    padding-left: 10%;
+    width: 28%;
+}
+.shop_cat_R{
+    /* border: 1px solid green; */
+    padding: 4.5% 0%;
+    width: 28%; 
+    display: flex;
+    align-items: center;
+}
+.shop_cat_L h3{
+    color: black;
+    font-weight: 500;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+.shop_cat_L h5{
+    color: grey;
+    font-weight: 100;
+    font-size: 0.7rem;
+    margin-top: 5%;
+}
+.shop_cat_R h5{
+    color: grey;
+    font-weight: 100;
+    font-size: 0.7rem;
+}
+.shop_cat_R a{
+    text-decoration: none;
+}
+/* Jeans Product */
+.jeans_product_main_box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.jeans_prod_inner-box{
+    width: 75%;
+    height: 85vh;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.jeans_prod_inner-box_L{
+    width: 45%;
+    height: 100%;
+}
+.jeans_prod_inner-box_R{
+    width: 45%;
+    height: 100%;
+}
+.jeans_prod_inner-box_L img{
+    height: 100%;
+    width: 100%;
+}
+.jeans_prod_inner-box_R_content{
+    margin: 15% 0%;
+}
+.jeans_prod_inner-box_R_content h3{
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.jeans_prod_inner-box_R_content h3 span{
+    font-weight: 600;
+    color: #71cd14;
+}
+.jeans_prod_inner-box_R_content h6{
+    font-weight: 400;
+    margin-top: 10px;
+    color: rgb(63, 62, 62);
+    font-size: 0.7rem;
+}
+.jeans_prod_inner-box_R_content h6 span{
+    margin-left: 20px;  
+}
+.jeans_prod_inner-box_R_content hr{
+    margin-top: 25px;
+}
+.jeans_prod_inner-box_R_content p{
+    margin-top: 25px;
+    font-size: 0.75rem;
+    color: grey;
+    line-height: 30px;
+}
+.quantity_box{
+    display: flex;
+    margin-top: 10%;
+    color: grey;
+    font-size: 0.7rem;
+}
+.quantity_box input{
+    padding: 5px 1px;
+    margin-left: 25px;
+    border: 1px solid rgb(173, 172, 172);
+    border-radius: 5px;
+}
+.add_to_cart_btn button{
+    background-color: #71cd14;
+    color: white;
+    padding: 12px 30px ;
+    border-radius: 5px;
+    border: none;
+}
+.cart_button{
+    margin-top: 40px;
+    display: flex;
+}
+.logo_btn{
+    border: 1px solid black;
+    padding: 10px 20px;
+    margin-left: 15px;
+}
+.review_main_page{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review_inner_pg{
+    width: 80%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    border: 1px solid rgb(227, 225, 225);
+}
+.review_inner_pg_header{
+    padding: 10px;
+    background-color: rgb(246, 243, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.review_inner_pg_header_div_box{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+}
+.des_spec_comm_rev{
+    border: 1px solid rgb(209, 207, 207);
+    width: 23.5%;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+}
+.review_box{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+}
+.overall_rev{
+    width: 50%;
+}
+.review_form{
+    width: 50%;
+}
+.overall_rev_box1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.overall_rev_box1_L{
+    width: 48%;
+}
+.overall_rev_box1_R{
+    width: 48%; 
+}
+.overall_4{
+    width: 87%;
+    padding: 20px;
+    margin-left: 13%;
+    margin-top: 12%;
+    background-color: rgb(246, 243, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.overall_4 h3{
+    font-weight: 500;
+    letter-spacing: 0.1px;
+}
+.overall_4 h1{
+    color: #71cd14;
+    margin: 3% 0%;
+}
+.overall_4 h6{
+    color: grey;
+    font-weight: 400;
+}
+.overall_rev_box1_R h5{
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.overall_rev_box1_R h6{
+    color: grey;
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+.each_review{
+}
+.each_review_top{
+    display: flex;
+    margin-top: 10px;
+}
+.each_review_bot{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.each_review_top_im{
+    margin-left: 6%;
+    border-radius: 50%;
+}
+.each_review_top_im img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.each_review_top_name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.each_review_top_name h5{
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.each_review_bot p{
+    color: grey;
+    font-size: 0.7rem;
+    line-height: 24px;
+    margin-bottom: 35px;
+}
+.review_form h3{
+    margin-top: 4%;
+    font-weight: 500;
+}
+.review_form h6{
+    margin-top: 5%;
+    font-weight: 400;
+    color: grey;
+    font-size: 0.7rem;
+}
+.review_form input{
+    padding: 1.5% 0%;
+    padding-right: 50%;
+    border: 1px solid grey;
+    font-size: 0.8rem;
+    color: rgb(17, 16, 16);
+    border-radius: 4px;
+    margin-top: 3%;
+}
+.review_form button{
+    color: white;
+    background-color: #71cd14;
+    padding: 12px 30px;
+    border: none;
+    margin-top: 15px;
+    margin-left: 60%;
+}
+/* Footer */
+.footer-box{
+    width: 100%;
+    padding: 50px;
+    margin-top: 5%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_inner_box{
+    width: 80%;
+    display: flex;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.footer_inner_box_L{
+    width: 70%;
+}
+.footer_inner_box_R{
+    width: 30%;
+}
+.left_top{
+    display: flex;
+}
+.left_bot{
+    
+}
+.top_products{
+    width: 25%;
+}
+.top_products dl dt{
+    font-size: 0.9rem;
+    margin-bottom: 18%;
+}
+.top_products dl dd{
+    font-size: 0.7rem;
+    color: grey;
+    margin-bottom: 10%;
+}
+.left_bot h6{
+    font-weight: 400;
+    font-size: 0.7rem;
+    margin-top: 6%;
+}
+.left_bot h6 span{
+    color: #71cd14;
+}
+.footer_inner_box_R h4{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+.footer_inner_box_R h6{
+    color: grey;
+    font-weight: 500;
+    font-size: 0.7rem;
+    margin-top: 10%;
+}
+.footer_inner_box_R input{
+    margin-top: 7%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 95px;
+    font-size: 0.7rem;
+    background-color: rgb(49, 48, 48);
+}
+.footer-logo-box{
+    margin-top: 75px;
+    width: 70%;
+    margin-left: 16%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-logo-box_logo{
+    width: 22%;
+    padding: 20px;
+    background-color: rgb(49, 48, 48);
+}
+.top_products dl a{
+    text-decoration: none;
+}
+.footer-logo-box_logo a i{
+    color: white;
+}
