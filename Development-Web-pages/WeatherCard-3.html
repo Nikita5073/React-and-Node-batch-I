@@ -6,213 +6,291 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
     <style>
-        * {
-            margin: 0px;
-            padding: 0px;
-            box-sizing: border-box;
-        }
-        body{
-            display: flex;
-            justify-content: center;
-        }
-        .container{
-            height: 120vh;
-            width: 80vw;
-            /* border: 2px solid black; */
-            margin-top: 10px;
-            display: flex;
-            justify-content: center;
-            border-radius: 10px;
-            background-color: rgb(190, 195, 201)
-        }
-        .container-in{
-            height: 85%;
-            width: 60vw;
-            /* border: 2px solid black; */
-            margin-top: 7%;
-            border-radius: 10px;
-            background-color: rgb(181, 223, 209);
-            display: flex;
-            justify-content: space-evenly;
-            align-items: center;
-        }
-        .box-1{
-            height: 80%;
-            width: 35%;
-            /* border: 2px solid black; */
-            background-image: url(ssnow-1.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            box-shadow: 0px 0px  20px rgb(110, 141, 189);
-        }
-        .box-2{
-            height: 80%;
-            width: 35%;
-            /* border: 2px solid black; */
-            background-image: url(snow-2.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            box-shadow: 0px 0px  20px rgb(110, 141, 189);
-        }
-        .b-1{
-            height: 8%;
-            width: 100%;
-            /* border: 2px solid black; */
-            display: flex;
-        }
-        .b-2{
-            height: 8%;
-            width: 100%;
-            /* border: 2px solid black; */
-        }
-        .b-3{
-            height: 5%;
-            width: 100%;
-            /* border: 2px solid black; */
-        }
-        .b-4{
-            height: 15%;
-            width: 100%;
-            /* border: 2px solid black; */
-            display: flex;
-            justify-content: center;
-        }
-        .c-1{
-            height: 100%;
-            width: 8%;
-            /* border: 2px solid black; */
-        }
-        .c-2{
-            height: 100%;
-            width: 5%;
-            /* border: 2px solid black; */
-        }
-        .c-3{
-            height: 100%;
-            width: 10%;
-            /* border: 2px solid black; */
-        }
-        .c-4{
-            height: 100%;
-            width: 8%;
-            /* border: 2px solid black; */
-        }
-        .c-5{
-            height: 100%;
-            width: 40%;
-            /* border: 2px solid black; */
-        }
-        .c-6{
-            height: 100%;
-            width: 8%;
-            /* border: 2px solid black; */
-        }
-        .c-7{
-            height: 100%;
-            width: 11%;
-            /* border: 2px solid black; */
-        }
-        .c-8{
-            height: 100%;
-            width: 11%;
-            /* border: 2px solid black; */
-        }
-        .bb-1{
-            height: 100%;
-            width: 30%;
-            /* border: 2px solid black; */
-        }
-        .bb-2{
-            height: 100%;
-            width: 40%;
-            /* border: 2px solid black; */
-        }
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.body{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner_box{
+    width: 75%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 235, 235);
+}
+.second_inner_box{
+    padding: 30px;
+    width: 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://xmple.com/wallpaper/blue-gradient-white-linear-2000x3000-c2-87cefa-ffffff-a-105-f-14.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.heavy_snow_box{
+    width: 38%;
+    height: 75vh;
+    box-shadow: 0px 0px 20px rgb(85, 173, 208);
+}
+.heavy_snow_box_top{
+    height: 65%;
+    width: 100%;
+    background-image: url(ssnow-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heavy_snow_box_bot{
+    height: 35%;
+
+}
+.heavy_snow_box_top1{
+    height: 65%;
+    width: 100%;
+    background-image: url(snow-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.temp{
+    height: 25%;
+    width: 100%;
+    display: flex;
+}
+.temps{
+    height: 100%;
+    width: 14.2%;
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    color: rgb(91, 176, 224);
+    font-weight: 600;
+}
+.temps sup{
+    margin-bottom: 10px;
+}
+
+.image{
+    height: 25%;
+    width: 100%;
+
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.days{
+    height: 25%;
+    width: 100%;
+    display: flex;
+}
+.singleday{
+    width: 14.2%;
+    height: 100%;
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(91, 176, 224);
+    font-weight: 600;
+}
+.icons{
+    height: 25%;
+    width: 100%;
+    display: flex;
+}
+.singleicon{
+    width: 14.2%;
+    height: 100%;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(91, 176, 224);
+    font-weight: 600;
+}
+.heavy_snow_box_top_header{
+    display: flex;
+    justify-content: space-between;
+}
+.header{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.55rem;
+    font-weight: 600;
+    color: white;
+}
+.center_box{
+    width: 55%;
+    margin-left: 23%;
+    margin-top: 10%;
+}
+.center_box_top{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.center_box_top h6{
+    margin-top: 3%;
+}
+.center_box_bot{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_L{
+    width: 50%;
+    color: white;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+.temp_R{
+    width: 50%;
+    color: white;
+    font-size: 2.5rem;
+}
+.temp_R sup{
+    font-size: 1.3rem;
+}
+
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="container-in">
-            <div class="box-1">
-                <div class="b-1">
-                    <div class="c-1">
-                        <i style="color: white;font-size: 25px;margin-left: 5px;" class="fa-solid fa-ellipsis"></i>
+    <div class="body">
+        <div class="inner_box">
+            <div class="second_inner_box">
+                <div class="heavy_snow_box">
+                    <div class="heavy_snow_box_top">
+                        <div class="heavy_snow_box_top_header">
+                                <div class="header">
+                                    <div class="header_inner_box"><i class="fa-solid fa-ellipsis"></i></div>
+                                    <div class="tick">TICK</div>
+                                    <div class="wifi"><i class="fa-solid fa-wifi"></i></div>
+                                </div>
+                                <div class="header">9.02 AM</div>
+                                <div class="header">100% <i class="fa-solid fa-battery-full"></i></div>
+                        </div>
+                        <div class="center_box">
+                            <div class="center_box_top">
+                                <h4>Heavy Snow</h4>
+                                <h6>Beijing, China</h6>
+                            </div>
+                            <div class="center_box_bot">
+                                <div class="icon_L"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                                <div class="temp_R">-8<sup>o</sup></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="c-2">
-                        <p style="color: white;font-size: 0.8rem;margin-top: 4px;font-family: sans-serif;">oo</p>
-                    </div>
-                    <div class="c-3">
-                        <p style="color: white;font-family: sans-serif;font-size: 0.8rem;margin-top: 5px;margin-left: 4px;">TICK</p>
-                    </div>
-                    <div class="c-4">
-                        <i style="color: white;font-size: 0.8rem;margin-top: 5px;margin-left: 5px;" class="fa-solid fa-wifi"></i>
-                    </div>
-                    <div class="c-5">
-                        <p style="color: white;font-weight: lighter;font-size: 0.8rem;text-align: center;margin-top: 5px;font-family: sans-serif;">9:02 AM</p>
-                    </div>
-                    <div class="c-6">
-                        <i style="color: white;margin-top: 5px;margin-left: 8px;" class="fa-brands fa-bluetooth-b"></i>
-                    </div>
-                    <div class="c-7">
-                        <p style="color: white;font-size: 0.8rem;font-family: sans-serif;margin-top: 5px;margin-left: 3px;">100%</p>
-                    </div>
-                    <div class="c-8">
-                        <i style="color: white;margin-top: 2px;margin-left: 5px;font-size: 1.4rem;" class="fa-solid fa-battery-full"></i>
-                    </div>
-                </div>
-                <div class="b-2">
-                    <p style="color: white;font-size: 25px;font-family: sans-serif;text-align: center;margin-top: 20px;">Heavy snow</p>
-                </div>
-                <div class="b-3">
-                    <p style="color: white;font-family: sans-serif;text-align: center;font-weight: lighter;margin-top: 5px;">Beijing, China</p>
-                </div>
-                <div class="b-4">
-                    <div class="bb-1">
-                        <i style="color: white;font-size: 60px;margin-left: 20px;margin-top: 15px;" class="fa-solid fa-cloud-rain"></i>
-                    </div>
-                    <div class="bb-2">
-                        <p style="color: white;font-size: 70px;margin-left: 8px;">-8<sup>o</sup></p>
-                    </div>
-                </div>
-            </div>
-            <div class="box-2">
-                <div class="b-1">
-                    <div class="c-1">
-                        <i style="color: white;font-size: 25px;margin-left: 5px;" class="fa-solid fa-ellipsis"></i>
-                    </div>
-                    <div class="c-2">
-                        <p style="color: white;font-size: 0.8rem;margin-top: 4px;font-family: sans-serif;">oo</p>
-                    </div>
-                    <div class="c-3">
-                        <p style="color: white;font-family: sans-serif;font-size: 0.8rem;margin-top: 5px;margin-left: 4px;">TICK</p>
-                    </div>
-                    <div class="c-4">
-                        <i style="color: white;font-size: 0.8rem;margin-top: 5px;margin-left: 5px;" class="fa-solid fa-wifi"></i>
-                    </div>
-                    <div class="c-5">
-                        <p style="color: white;font-weight: lighter;font-size: 0.8rem;text-align: center;margin-top: 5px;font-family: sans-serif;">9:02 AM</p>
-                    </div>
-                    <div class="c-6">
-                        <i style="color: white;margin-top: 5px;margin-left: 8px;" class="fa-brands fa-bluetooth-b"></i>
-                    </div>
-                    <div class="c-7">
-                        <p style="color: white;font-size: 0.8rem;font-family: sans-serif;margin-top: 5px;margin-left: 3px;">100%</p>
-                    </div>
-                    <div class="c-8">
-                        <i style="color: white;margin-top: 2px;margin-left: 5px;font-size: 1.4rem;" class="fa-solid fa-battery-full"></i>
+                    <div class="heavy_snow_box_bot">
+                        <div class="temp">
+                            <div class="temps">-9 <sup>o</sup></div>
+                            <div class="temps">-8 <sup>o</sup></div>
+                            <div class="temps">-9 <sup>o</sup></div>
+                            <div class="temps">-10 <sup>o</sup></div>
+                            <div class="temps">-9 <sup>o</sup></div>
+                            <div class="temps">-9 <sup>o</sup></div>
+                            <div class="temps">-6 <sup>o</sup></div>
+                        </div>
+                        <div class="image">
+                            <img src="imageess.png" alt="image not found">
+                        </div>
+                        <div class="days">
+                            <div class="singleday">Mon</div>
+                            <div class="singleday">Tue</div>
+                            <div class="singleday">Wed</div>
+                            <div class="singleday">Thu</div>
+                            <div class="singleday">Fri</div>
+                            <div class="singleday">Sat</div>
+                            <div class="singleday">Sun</div>
+                        </div>
+                        <div class="icons">
+                            <div class="singleicon"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                            <div class="singleicon"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                            <div class="singleicon"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                            <div class="singleicon"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                            <div class="singleicon"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                            <div class="singleicon"><i class="fa-solid fa-sun"></i></div>
+                            <div class="singleicon"><i class="fa-solid fa-sun"></i></div>
+                        </div>
                     </div>
                 </div>
-                <div class="b-2">
-                    <p style="color: white;font-size: 25px;font-family: sans-serif;text-align: center;margin-top: 20px;">Heavy snow</p>
-                </div>
-                <div class="b-3">
-                    <p style="color: white;font-family: sans-serif;text-align: center;font-weight: lighter;margin-top: 5px;">Beijing, China</p>
-                </div>
-                <div class="b-4">
-                    <div class="bb-1">
-                        <i style="color: white;font-size: 60px;margin-left: 20px;margin-top: 15px;" class="fa-solid fa-cloud-rain"></i>
+                <div class="heavy_snow_box">
+                    <div class="heavy_snow_box_top1">
+                        <div class="heavy_snow_box_top_header">
+                            <div class="header">
+                                <div class="header_inner_box"><i class="fa-solid fa-ellipsis"></i></div>
+                                <div class="tick">TICK</div>
+                                <div class="wifi"><i class="fa-solid fa-wifi"></i></div>
+                            </div>
+                            <div class="header">9.02 PM</div>
+                            <div class="header">100% <i class="fa-solid fa-battery-full"></i></div>
                     </div>
-                    <div class="bb-2">
-                        <p style="color: white;font-size: 70px;margin-left: 5px;">-10<sup>o</sup></p>
+                    <div class="center_box">
+                        <div class="center_box_top">
+                            <h4>Heavy Snow</h4>
+                            <h6>Beijing, China</h6>
+                        </div>
+                        <div class="center_box_bot">
+                            <div class="icon_L"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                            <div class="temp_R">-10<sup>o</sup></div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="heavy_snow_box_bot">
+                        <div class="temp">
+                            <div class="temps">-9 <sup>o</sup></div>
+                            <div class="temps">-8 <sup>o</sup></div>
+                            <div class="temps">-9 <sup>o</sup></div>
+                            <div class="temps">-10 <sup>o</sup></div>
+                            <div class="temps">-9 <sup>o</sup></div>
+                            <div class="temps">-9 <sup>o</sup></div>
+                            <div class="temps">-6 <sup>o</sup></div>
+                        </div>
+                        <div class="image">
+                            <img src="imageess.png" alt="image not found">
+                        </div>
+                        <div class="days">
+                            <div class="singleday">Mon</div>
+                            <div class="singleday">Tue</div>
+                            <div class="singleday">Wed</div>
+                            <div class="singleday">Thu</div>
+                            <div class="singleday">Fri</div>
+                            <div class="singleday">Sat</div>
+                            <div class="singleday">Sun</div>
+                        </div>
+                        <div class="icons">
+                            <div class="singleicon"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                            <div class="singleicon"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                            <div class="singleicon"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                            <div class="singleicon"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                            <div class="singleicon"><i class="fa-solid fa-cloud-showers-heavy"></i></div>
+                            <div class="singleicon"><i class="fa-solid fa-sun"></i></div>
+                            <div class="singleicon"><i class="fa-solid fa-sun"></i></div>
+                        </div>
                     </div>
                 </div>
             </div>
